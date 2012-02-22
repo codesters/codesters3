@@ -1,0 +1,42 @@
+#container {
+	width: 95%;
+	margin: auto;
+}
+ul {
+	list-style: none;
+	text-decoration: none;
+}
+
+header {
+	background-color:#dddddd;
+	width: 30%;
+	float: left;
+	position: fixed;
+	height: 100%;
+	z-index: 10;
+	top: 0px;
+	padding: 1em;
+}
+
+header h1 {
+	font-size: 4.5em;
+	font-weight: bold;
+	width: 95;
+	margin: auto;
+	letter-spacing: 0.2em;
+	overflow: hidden;
+}
+
+#social ul li {
+	float:left;
+	padding: 0.5em;
+	border: double 2px #000;
+	margin: 0.2em;
+}
+
+#main {
+	width: 65%;
+	position: relative;
+	float: right;
+	background-color: #550044;
+}
