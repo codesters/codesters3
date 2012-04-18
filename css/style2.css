@@ -1,0 +1,114 @@
+#container {
+	width: 99%;
+	margin: auto;
+}
+
+body {
+    margin: 0;
+	font-family: Segoe UI Light;
+    font-size: 100%;
+    background-color:#333333;
+    color:#fff;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color:#fff;
+}
+
+a:hover {
+    color: #436eee;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+ul {
+	list-style: none;
+	text-decoration: none;
+}
+
+h1 a, h1 a:visited {
+    color: #eee;
+}
+
+header {
+	background-color:#111;
+	color:#ffffff;
+	width: 30%;
+	float: left;
+	position: fixed;
+	height: 100%;
+	z-index: 10;
+	top: 0px;
+	padding: 1em;
+	border-right:double 2px #436eee;
+}
+
+header h1 {
+	font-size: 5em;
+	font-weight: bold;
+	width: 95%;
+	margin: auto;
+	text-align:center;
+/*	letter-spacing: 0.1em;*/
+	overflow: hidden;
+    margin-bottom: 60px;
+    margin-top: 30px;
+    color: #eee;
+}
+
+
+nav, #social {
+    width:75%;
+    margin:auto;
+}
+
+nav ul li {
+    font-size: 3em;
+    margin:8px;
+    margin-left:20px;
+}
+
+#social ul li {
+	float:left;
+	padding: 0.8em;
+	border: double 2px #436eee;
+	margin: 0.7em;
+}
+
+#social {
+    margin:auto;
+    margin-top: 50px;
+}
+
+#main {
+	width: 65%;
+	color:#ffffff;
+	background-color:#333333;
+	position: relative;
+	float: right;
+	margin-top: 20px;
+}
+
+#home, #about, #services, #projects {
+    height:680px;
+    /*
+    display:none;
+    visibility:hidden;*/
+}
+
+
+.main-part {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.main-small {
+    width: 45%;
+    margin: 20px 0 0 10px;
+    display:inline;
+    float:left;
+}
