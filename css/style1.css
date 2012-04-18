@@ -1,14 +1,41 @@
 #container {
-	width: 95%;
+	width: 99%;
 	margin: auto;
 }
+
+body {
+    margin: 0;
+	font-family: Segoe UI Light;
+    font-size: 100%;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color:#000000;
+}
+
+/*
+a:hover {
+    color: #436eee;
+}
+*/
+
+nav a:hover {
+    text-decoration: underline;
+    color:#436eee;
+}
+
 ul {
 	list-style: none;
 	text-decoration: none;
 }
 
+h1 a, h1 a:visited {
+    color: #333333;
+}
+
 header {
-	background-color:#dddddd;
+	/*background-color:#436eee;*/
 	width: 30%;
 	float: left;
 	position: fixed;
@@ -16,27 +43,71 @@ header {
 	z-index: 10;
 	top: 0px;
 	padding: 1em;
+	border-right:double 2px #436eee;
 }
 
 header h1 {
-	font-size: 4.5em;
+	font-size: 5em;
 	font-weight: bold;
-	width: 95;
+	width: 95%;
 	margin: auto;
-	letter-spacing: 0.2em;
+	text-align:center;
+/*	letter-spacing: 0.1em;*/
 	overflow: hidden;
+    background-color: #ffffff;
+    margin-bottom: 60px;
+    margin-top: 30px;
+    color: #333333;
+}
+
+
+nav, #social {
+    width:75%;
+    margin:auto;
+    background-color: #ffffff;
+}
+
+nav ul li {
+    font-size: 3em;
+    margin:8px;
+    margin-left:20px;
 }
 
 #social ul li {
 	float:left;
-	padding: 0.5em;
-	border: double 2px #000;
-	margin: 0.2em;
+	padding: 0.8em;
+	border: double 2px #436eee;
+	margin: 0.7em;
+}
+
+#social {
+    margin:auto;
+    margin-top: 50px;
 }
 
 #main {
 	width: 65%;
 	position: relative;
 	float: right;
-	background-color: #550044;
+	margin-top: 20px;
+}
+
+#home, #about, #services, #projects {
+    height:680px;
+    /*
+    display:none;
+    visibility:hidden;*/
+}
+
+.main-part {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.main-small {
+    width: 45%;
+    margin: 20px 0 0 10px;
+    display:inline;
+    float:left;
 }
